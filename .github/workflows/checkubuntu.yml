@@ -21,7 +21,7 @@ jobs:
     - name: Build
       env:
          HB_BUILD_STRIP: all
-         HB_COMPILER: mingw
+         HB_COMPILER: gcc
          HB_INSTALL_PREFIX: /tmp/harbour
       run: |
          sudo apt-get install gcc
