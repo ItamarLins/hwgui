@@ -22,7 +22,6 @@ jobs:
       env:
          HB_BUILD_STRIP: all
          HB_COMPILER: gcc
-         HB_INSTALL_PREFIX: /tmp/harbour
       run: |
          sudo apt-get install gcc
          sudo apt-get install make
