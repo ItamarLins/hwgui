@@ -34,7 +34,7 @@ jobs:
          cd /tmp/harbour32
          sudo make install
          cd /tmp/hwgui
-         hbmk2 hwgui.hbp -workdir=/tmp -DHB_VER_REVID=1
-         hbmk2 hbxml.hbp -workdir=/tmp -DHB_VER_REVID=1
-         hbmk2 procmisc.hbp -workdir=/tmp -DHB_VER_REVID=1
-         hbmk2 hwgdebug.hbp -workdir=/tmp -DHB_VER_REVID=1
+         hbmk2 hwgui.hbp -lm -workdir=/tmp -DHB_VER_REVID=1
+         hbmk2 hbxml.hbp -lm -workdir=/tmp -DHB_VER_REVID=1
+         hbmk2 procmisc.hbp -lm -workdir=/tmp -DHB_VER_REVID=1
+         hbmk2 hwgdebug.hbp -lm -workdir=/tmp -DHB_VER_REVID=1
